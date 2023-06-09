@@ -11,8 +11,8 @@ public class Main {
             bonus = 0;
         }
         balance = balance + repl + bonus;
-        System.out.println(Bonus);
-        System.out.println(Balance);
+        System.out.println(bonus);
+        System.out.println(balance);
 
     }
 }
