@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int Balance = 100;
-        int Bonus = 0;
-        int Repl = 200;
+        int balance = 100;
+        int bonus = 0;
+        int repl = 200;
 
-        if (Repl > 999) {
-            Bonus = Repl/100;
+        if (repl > 999) {
+            bonus = repl/100;
         } else {
-            Bonus = 0;
+            bonus = 0;
         }
-        Balance = Balance + Repl + Bonus;
+        balance = balance + repl + bonus;
         System.out.println(Bonus);
         System.out.println(Balance);
 
